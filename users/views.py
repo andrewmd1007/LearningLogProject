@@ -16,5 +16,5 @@ def register(request):
             # Log the user in and then redirect to home page.
             login(request, new_user)
             return redirect('MainApp:index')
-        context = {'form': form}
+    context = {'form': form}
     return render(request, 'registration/register.html', context)
