@@ -6,3 +6,4 @@ soupsieve==4.1.1
 sqlparse==0.6.1
 typing_extensions==4.16.0
 tzdata==2026.6
+gunicorn
