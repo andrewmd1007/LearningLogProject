@@ -25,7 +25,8 @@ SECRET_KEY = 'django-insecure-f01umy61wc4j-nt3c^&)gm74e+_mlsb_zu(8=*j9fd_&epj_%j
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = True
 
-ALLOWED_HOSTS = ['learninglogproject-nafb.onrender.com']
+ALLOWED_HOSTS = ['learninglogproject-nafb.onrender.com',
+                 '127.0.0.1',]
 
 
 # Application definition
